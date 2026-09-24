@@ -14,4 +14,4 @@ def matrix_dot_vector(a, b) -> torch.Tensor:
     # Your implementation here
     pass
 
-    return torch.matmul(a, b)
+    return torch.matmul(a_t, b_t)
